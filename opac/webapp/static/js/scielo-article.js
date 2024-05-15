@@ -42,8 +42,6 @@ var Article = {
 					refTxt = s.parent().find("a").data("ref");
 					s.parent().append("<span class='refCtt closed'><span>" + refTxt + "</span></span>");
 	
-					console.log('cliquei');
-	
 				if(li.length > 0)
 					li.addClass("zindexFix");
 					s.parent().find(".refCtt").removeClass("closed").addClass("opened").css({
